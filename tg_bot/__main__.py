@@ -151,7 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://youtu.be/W6CLKrehy6w")],
                      [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Ak_Bot_SupportGroup"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/Ak_Botdevelopers")],
                      [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://www.youtube.com/MADpsychoYT?sub_confirmation=1"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
-                     [InlinekeyboardButton(text="😎 My dev", url="https://t.me/IAM_A_JOKER")
+                 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
