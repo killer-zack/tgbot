@@ -48,7 +48,7 @@ And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+It took lots of work for [my creator](t.me/IAM_A_JOKER) to get me to where I am now, and every donation helps \
 motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
 (see his bio!). He's just a poor student, so every little helps!
 There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
@@ -151,7 +151,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                     [[InlineKeyboardButton(text="🎉 Add me to your group", url="t.me/{}?startgroup=true".format(bot.username)),  InlineKeyboardButton(text="🤖 Make Own Admin Bot", url="https://youtu.be/W6CLKrehy6w")],
                      [InlineKeyboardButton(text="👥 Support Group", url="https://t.me/Ak_Bot_SupportGroup"), InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/Ak_Botdevelopers")],
                      [InlineKeyboardButton(text="🎬 Youtube Channel", url="https://www.youtube.com/MADpsychoYT?sub_confirmation=1"), InlineKeyboardButton(text="🛠 Help", url="https://t.me/{}?start=help".format(bot.username)) ]]))
-
+                     [InlinekeyboardButton(text="😎 My dev", url="https://t.me/IAM_A_JOKER")
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
 
