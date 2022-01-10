@@ -1,7 +1,7 @@
 {
-  "name": "AKBOT",
+  "name": "KZ-ADMIN-BOT",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
-  "logo": "https://telegra.ph/file/9dc7f66eda005e9ec2412.jpg",
+  "logo": "https://telegra.ph/file/03452327b9e267f2784eb.jpg",
   "keywords": [
     "telegram",
     "best",
@@ -12,7 +12,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/AkBotmakers/tgbot",
+  "repository": "https://github.com/killer-zack/tgbot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables. But, you need to understand the code to know what to set here!",
